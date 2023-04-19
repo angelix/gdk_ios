@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "GDKBinaries",
-            url: "https://github.com/angelix/gdk_ios/releases/download/release_0.0.58.post2/gdk_swift_release_0.0.58.post2.zip",
-            checksum: "9a119631bf28ce7d36bdc1c5f4ecd98a068d91cc0ba4996ee0a904e94f3a7318"
+            url: "https://github.com/angelix/gdk_ios/releases/download/0.0.61/gdk_ios_0.0.61.zip",
+            checksum: "ddfc7b9fbf937f212d0f79ef4ec1113bd3e0ec6ec39baed986830a4499b67b82"
         ),
 //       ,.binaryTarget(
 //            name: "GDKBinaries",
