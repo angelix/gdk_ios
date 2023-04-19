@@ -22,7 +22,8 @@ let package = Package(
         .target(
             name: "GDK",
             dependencies: ["GDKBinaries"],
-            linkerSettings: [ .linkedLibrary("c++") ]),
+            linkerSettings: [ .linkedLibrary("c++") ]
+        ),
         .binaryTarget(
             name: "GDKBinaries",
             url: "https://github.com/angelix/gdk_ios/releases/download/release_0.0.58.post2/gdk_swift_release_0.0.58.post2.zip",
