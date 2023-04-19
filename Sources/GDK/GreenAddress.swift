@@ -183,7 +183,7 @@ public class Session {
     private var session: OpaquePointer? = nil
     private let uuid: String
 
-    func setNotificationHandler(notificationCompletionHandler: NotificationCompletionHandler?) {
+    public func setNotificationHandler(notificationCompletionHandler: NotificationCompletionHandler?) {
         queue.sync() {
             guard let notificationCompletionHandler = notificationCompletionHandler else {
                 let nsString = NSString(string: self.uuid)
