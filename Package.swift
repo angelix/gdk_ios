@@ -21,7 +21,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "GDK",
-            dependencies: ["GDKBinaries"]),
+            dependencies: ["GDKBinaries"],
+            linkerSettings: [ .linkedLibrary("c++") ]
+        ),
         .binaryTarget(
             name: "GDKBinaries",
             url: "https://github.com/angelix/gdk_ios/releases/download/release_0.0.58.post2/gdk_swift_release_0.0.58.post2.zip",
